@@ -16,10 +16,14 @@ public abstract class Notificacion {
         this.mensaje = mensaje;
     }
     
+    
     public abstract void enviar();
     public abstract void enviar(String destinatario);
 
       protected static void registrarEnvio() {
         totalEnviadas++;
+    }
+       public static int totalEnviadas() {
+        return totalEnviadas;
     }
 }

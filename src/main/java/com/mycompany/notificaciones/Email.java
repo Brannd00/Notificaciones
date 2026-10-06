@@ -21,7 +21,7 @@ public class Email extends Notificacion {
     
   @Override 
     public void enviar(String destinatario) {
-        System.out.println("Enviando Email al destinatario: "+ destinatario+ ": "+ mensaje);
+        System.out.println("Enviando Email al destinatario: "+ destinatario+ ". Mensaje: "+ mensaje);
         registrarEnvio();
     }
 }

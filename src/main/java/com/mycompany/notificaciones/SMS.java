@@ -21,7 +21,7 @@ public class SMS extends Notificacion{
 
     @Override
     public void enviar(String destinatario) {
-        System.out.println("Enviando SMS al numero " + destinatario + ": " + mensaje);
+        System.out.println("Enviando SMS al numero " + destinatario + ". Mensaje: " + mensaje);
         registrarEnvio();
     }
 
